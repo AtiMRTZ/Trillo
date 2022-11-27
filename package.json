@@ -4,8 +4,14 @@
   "description": "A Booking App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "node-sass --watch scss -o css"
   },
   "author": "Atiyeh Mortazavi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
