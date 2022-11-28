@@ -13,6 +13,8 @@
   }
 }
 
+////////////
+
 .header {
   font-size: 1.4rem;
   height: 7rem;
@@ -28,4 +30,44 @@
     align-content: space-around;
     height: 11rem;
   }
+}
+
+////////////////
+
+.content {
+  display: flex;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
+}
+//////////////////////////////////
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+
+  flex: 0 0 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+//////////////////////
+.hotel-view {
+  background-color: #fff;
+
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+}
+
+.overview {
+  display: flex;
+}
+
+.detail {
+  display: flex;
 }
