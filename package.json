@@ -4,7 +4,7 @@
   "description": "A Booking App",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch scss -o css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Atiyeh Mortazavi",
   "license": "ISC",
