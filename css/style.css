@@ -243,3 +243,9 @@ body {
     @media only screen and (max-width: 56.25em) {
       .side-nav .legal {
         display: none; } }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
