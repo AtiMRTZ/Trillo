@@ -303,3 +303,23 @@ body {
     @media only screen and (max-width: 37.5em) {
       .overview__rating-count {
         font-size: 0.5rem; } }
+  .overview .btn-inline {
+    border: none;
+    color: var(--color-primary);
+    font-size: inherit;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s; }
+    .overview .btn-inline span {
+      margin-left: 3px;
+      transition: margin-left 0.2s; }
+    .overview .btn-inline:hover {
+      color: var(--color-grey-dark-1); }
+      .overview .btn-inline:hover span {
+        margin-left: 8px; }
+    .overview .btn-inline:focus {
+      outline: none;
+      animation: pulsate 1s infinite; }
